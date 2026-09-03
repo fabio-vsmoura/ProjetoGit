@@ -30,6 +30,7 @@
         {
             lbl_titulo_cadastramento = new Label();
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // lbl_titulo_cadastramento
@@ -50,11 +51,21 @@
             label1.TabIndex = 1;
             label1.Text = "Nome do usuário:";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(34, 167);
+            label2.Name = "label2";
+            label2.Size = new Size(44, 15);
+            label2.TabIndex = 2;
+            label2.Text = "E-mail:";
+            // 
             // Cadastramento
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(lbl_titulo_cadastramento);
             Name = "Cadastramento";
@@ -67,5 +78,6 @@
 
         private Label lbl_titulo_cadastramento;
         private Label label1;
+        private Label label2;
     }
 }
