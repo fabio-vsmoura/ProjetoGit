@@ -65,7 +65,6 @@
             // 
             textBox1.Location = new Point(34, 131);
             textBox1.Name = "textBox1";
-            campo_de_texto2
             textBox1.Size = new Size(267, 23);
             
 
