@@ -29,22 +29,33 @@
         private void InitializeComponent()
         {
             lbl_titulo_cadastramento = new Label();
+            label1 = new Label();
             SuspendLayout();
             // 
             // lbl_titulo_cadastramento
             // 
             lbl_titulo_cadastramento.AutoSize = true;
-            lbl_titulo_cadastramento.Location = new Point(12, 30);
+            lbl_titulo_cadastramento.Location = new Point(34, 21);
             lbl_titulo_cadastramento.Name = "lbl_titulo_cadastramento";
             lbl_titulo_cadastramento.Size = new Size(128, 15);
             lbl_titulo_cadastramento.TabIndex = 0;
             lbl_titulo_cadastramento.Text = "Tela de Cadastramento";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(34, 113);
+            label1.Name = "label1";
+            label1.Size = new Size(102, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Nome do usuário:";
             // 
             // Cadastramento
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(lbl_titulo_cadastramento);
             Name = "Cadastramento";
             Text = "Cadastramento";
@@ -55,5 +66,6 @@
         #endregion
 
         private Label lbl_titulo_cadastramento;
+        private Label label1;
     }
 }
