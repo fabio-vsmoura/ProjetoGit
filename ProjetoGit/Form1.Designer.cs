@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            lbl_titulo = new Label();
             SuspendLayout();
             // 
-            // label1
+            // lbl_titulo
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(22, 20);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            lbl_titulo.AutoSize = true;
+            lbl_titulo.Location = new Point(22, 20);
+            lbl_titulo.Name = "lbl_titulo";
+            lbl_titulo.Size = new Size(49, 15);
+            lbl_titulo.TabIndex = 0;
+            lbl_titulo.Text = "TesteGit";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            Controls.Add(lbl_titulo);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -54,6 +54,6 @@
 
         #endregion
 
-        private Label label1;
+        private Label lbl_titulo;
     }
 }
