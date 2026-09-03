@@ -31,6 +31,7 @@
             lbl_titulo_cadastramento = new Label();
             label1 = new Label();
             label2 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // lbl_titulo_cadastramento
@@ -60,11 +61,19 @@
             label2.TabIndex = 2;
             label2.Text = "E-mail:";
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(34, 131);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(276, 23);
+            textBox1.TabIndex = 3;
+            // 
             // Cadastramento
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(lbl_titulo_cadastramento);
@@ -79,5 +88,6 @@
         private Label lbl_titulo_cadastramento;
         private Label label1;
         private Label label2;
+        private TextBox textBox1;
     }
 }
