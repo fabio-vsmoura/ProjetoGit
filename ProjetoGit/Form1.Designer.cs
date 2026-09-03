@@ -34,9 +34,10 @@
             // lbl_titulo
             // 
             lbl_titulo.AutoSize = true;
+            lbl_titulo.Font = new Font("Segoe UI", 35F);
             lbl_titulo.Location = new Point(22, 20);
             lbl_titulo.Name = "lbl_titulo";
-            lbl_titulo.Size = new Size(49, 15);
+            lbl_titulo.Size = new Size(192, 62);
             lbl_titulo.TabIndex = 0;
             lbl_titulo.Text = "TesteGit";
             // 
