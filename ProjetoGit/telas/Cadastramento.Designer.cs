@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Cadastramento";
+            lbl_titulo_cadastramento = new Label();
+            SuspendLayout();
+            // 
+            // lbl_titulo_cadastramento
+            // 
+            lbl_titulo_cadastramento.AutoSize = true;
+            lbl_titulo_cadastramento.Location = new Point(12, 30);
+            lbl_titulo_cadastramento.Name = "lbl_titulo_cadastramento";
+            lbl_titulo_cadastramento.Size = new Size(128, 15);
+            lbl_titulo_cadastramento.TabIndex = 0;
+            lbl_titulo_cadastramento.Text = "Tela de Cadastramento";
+            // 
+            // Cadastramento
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lbl_titulo_cadastramento);
+            Name = "Cadastramento";
+            Text = "Cadastramento";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lbl_titulo_cadastramento;
     }
 }
