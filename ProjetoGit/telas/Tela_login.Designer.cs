@@ -43,9 +43,9 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(35, 38);
+            textBox1.Location = new Point(35, 51);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(678, 23);
+            textBox1.Size = new Size(252, 23);
             textBox1.TabIndex = 1;
             // 
             // Tela_login
