@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -40,11 +41,19 @@
             label1.TabIndex = 0;
             label1.Text = "Tela de login";
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(35, 38);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(678, 23);
+            textBox1.TabIndex = 1;
+            // 
             // Tela_login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "Tela_login";
             Text = "Tela_login";
@@ -55,5 +64,6 @@
         #endregion
 
         private Label label1;
+        private TextBox textBox1;
     }
 }
