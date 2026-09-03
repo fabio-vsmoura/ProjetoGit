@@ -65,7 +65,10 @@
             // 
             textBox1.Location = new Point(34, 131);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(276, 23);
+            campo_de_texto2
+            textBox1.Size = new Size(267, 23);
+            
+
             textBox1.TabIndex = 3;
             // 
             // Cadastramento
